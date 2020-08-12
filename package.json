@@ -1,0 +1,43 @@
+{
+  "name": "vanilla-custom-element-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for creating a custom element.",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "rollup -c",
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:frontend-trends/vanilla-custom-element-boilerplate.git"
+  },
+  "keywords": [
+    "Custom Element Boilerplate"
+  ],
+  "author": "Jeremiah <jeremia.nadler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanilla-custom-element-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vanilla-custom-element-boilerplate#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@rollup/plugin-babel": "^5.1.0",
+    "es-dev-server": "^1.57.1",
+    "jasmine": "^3.6.1",
+    "karma": "^5.1.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-firefox-launcher": "^1.3.0",
+    "karma-jasmine": "^3.3.1",
+    "karma-rollup-preprocessor": "^7.0.5",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.32",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
